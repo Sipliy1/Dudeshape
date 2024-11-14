@@ -1,86 +1,23 @@
-@media only screen and (max-width: 1409px) {
-    .box2 {
-        .items {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            .item1 {
-                margin-bottom: 10px;
-            }
-        }
-    }
-}
 @media only screen and (max-width: 1200px) {
-    .top_container {
-        .main_logo {
-            padding-bottom: 70px;
-            .main_logo_photo{
-                width: 600px;
-                margin-top: 50px;
-            }
-        }
-    }
-    .box1 {
-        .text {
-            justify-content: flex-start;
-            flex-wrap: wrap;
-        }
-        p {
-            margin-bottom: 10px;
-        }
-    }
-    .box2 {
-        .item1 {
-            margin: 0px 0px 20px 0px;
+    .popular_product {
+        .box1 {
+        align-items: center;
         }
     }
     .advertising {
         .photo {
-            flex-direction: column;
-            text-align: center;
-            .left {
-                padding: 0 !important;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                text-align: center;
-                margin-bottom: 20px;
+            .right {
+                img {
+                    width: 450px;
+                }
             }
         }
     }
     .designers {
         .women {
-            flex-direction: column;
-            align-items: center;
-            .text_hoto {
-                h4 {
-                    margin: 20px 0px 10px 0px;
-                }
-                .img1 {
-                    margin: 0px 0px 30px 0px;
-                }
-                p {
-                    margin: 0;
-                }
-                .scob1 {
-                    top: 3px;
-                    left: 55px;
-                }
-                .scob2 {
-                    top: 98px;
-                    left: 579px;
-                }
-                .krug {
-                    margin-left: 0px
-                }
-                .strel1 {
-                    top: 90px ;
-                    left: 333px;
-                }
-                .strel2 {
-                    top: 90px;
-                    left: 385px;
+            .hoto {
+                img {
+                    width: 450px;
                 }
             }
         }
@@ -88,154 +25,179 @@
 }
 @media only screen and (max-width: 767px) {
     .top_container {
-        .top {
-            padding: 40px 50px 0;
-            flex-wrap: wrap;
-            justify-content: center;
-            a {
-                margin: 20px 5px;
-            }
-        }
         .main_logo {
-            margin-top: 0px !important; 
-            flex-direction: column;
-            align-items: center;
             .block1 {
-                margin-left: 0px !important;
+                margin-left: 10px !important;
+                form {
+                    display: flex;
+                    align-items: baseline;
+                    button {
+                        margin-left: 10px;
+                    }
+                }
             }
             .block2 {
                 .str {
-                    top: 0px !important;
-                    left: 230px !important;
+                    bottom: 0px;
+                    right: 300px !important;
                 }
             }
         }
     }
-    .companis {
-        img {
-            width: 14% ; 
+    .popular_product {
+        .box1 {
+            .text {
+                flex-wrap: wrap;
+                justify-content: center !important;
+                a {
+                    margin-top: 10px;
+                }
+            }
+        }
+        .box2 {
+            .items {
+                flex-wrap: wrap;
+            }
+            .down_but {
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                .buts {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    .but1, .but2 {
+                        margin-left: 5px !important;
+                    }
+                }
+                p {
+                    margin-top: 10px;
+                }
+            }
         }
     }
     .advertising {
         .photo {
+            flex-wrap: wrap;
             .left {
-                padding-right: 0px !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0 !important;
+                h1 {
+                    text-align: center;
+                }
+                button {
+                    margin-bottom: 20px;
+                }
             }
         }
     }
-    .women {
-        .text_hoto {
-            .text {
-                .scob1 {
-                    top: 0px;
-                    left: 88px;
-                }
-                .scob2 {
-                    top: 130px ;
-                    left: 190px ;
-                }
+    .designers {
+        .women {
+            flex-wrap: wrap;
+            .text_hoto {
+                padding: 0 !important;
+                align-items: center !important;
+                text-align: center;
             }
             .strecki {
                 .strel1 {
-                    top: 90px;
-                    left: 310px;
+                    left: 54px !important;
                 }
                 .strel2 {
-                    top: 90px;
-                    left: 360px;
+                    left: 108px !important;
                 }
             }
         }
     }
     footer {
         .top {
-            flex-direction: column;
-            align-items: center;
+            flex-wrap: wrap;
             h2 {
                 margin-bottom: 20px;
             }
         }
     }
 }
+
 @media screen and (max-width: 567px) {
     .top_container {
         .top {
-            padding: 40px 50px 0 !important;
+            .menu {
+                display: none !important;
+            }
         }
         .main_logo {
-            padding-bottom: 0 !important;
             .block1 {
-                flex-wrap: wrap;
-                flex-direction: column;
                 text-align: center;
-                align-items: center;
-                justify-content: center;
-                form { 
-                    display: flex;
+                form {
                     flex-direction: column;
+                    flex-wrap: wrap;
                     align-items: center;
                 }
             }
             .block2 {
-                .main_logo_photo {
-                    width: 100%;
-                }
-                .str {
-                    top: 29px;
-                    left: 170px;
+                img {
+                    display: none;
                 }
             }
         }
     }
     .companis {
-        .name img {
-            width: 15%;
+        overflow-y: scroll;
+        .name {
+            img {
+                margin: 0 10px;
+            }
         }
     }
     .popular_product {
         .box1 {
-            text-align: center;
             .text {
-                justify-content: center;
+                text-align: center;
             }
         }
         .box2 {
             .items {
+                .down_but {
+                    .but1 {
+                        margin-left: 0 !important;
+                        margin-bottom: 10px;
+                    }
+                    .but2 {
+                        margin-left: 0 !important;
+                    }
+                }
+            } 
+        }
+    }
+    .advertising {
+       .photo {
+        .left {
+            p {
+                text-align: center;
+            }
+        }
+       } 
+    }
+}
+@media screen and (max-width: 375px) {
+    .top_container {
+        padding-bottom: 20px;
+    }
+    .popular_product {
+        .box2 {
+            .items {
+                flex-direction: column;
+                align-items: center;
                 .item1, .item2 {
-                    max-width: 100%;
-                }
-                img {
-                    max-width: 100%;
-                }
-                .box_lorem {
-                    text-align: center;
-                    margin-top: 10px;
-                    margin-left: 10px;
-                    h3 {
-                        margin: 0 !important;
-                    }
-                    p {
-                        margin: 10px 0px 20px 0px !important; 
-                    }
+                    width: 85% !important;
                 }
                 .down_but {
-                    flex-wrap: wrap;
-                    justify-content: center;
+                    flex-direction: column;
                     .buts {
-                        display: flex;
                         flex-direction: column;
                         align-items: center;
-                        .but1{
-                            margin-left: 0px;
-                            margin-bottom: 10px;
-                        }
-                        .but2 {
-                            margin-left: 0px;
-                        }
-                    }
-                    p {
-                        margin-top: 20px;
-                        margin-right: 0px !important;
                     }
                 }
             }
@@ -243,115 +205,34 @@
     }
     .numbers {
         .num {
-            .num1, .num2, .num3 {
-                width: 90px !important;
-                text-align: center;
-            }
-            h1 {
-                font-size: 29px !important;
-            } 
-            p {
-                text-align: center;
-                font-size: 16px !important;
-            }
+            flex-wrap: wrap;
         }
     }
     .advertising {
-        .photo {
-            margin-top: 50px;
-            .left h1 {
-                width: 340px;
-            }
-            .right img{
-                width:  300px;
-            }
+        img {
+            width: 300px !important;
         }
     }
     .designers {
         .women {
-            .hoto img {
-                width: 300px;
-            }
-            .text_hoto {
-                text-align: center;
-                h4 {
-                    margin: 10px 0 10px 0px !important;
-                }
-                .img1 {
-                    margin: 0 0 20px 0px !important;
-                }
-                .text {
-                    .p1 {
-                        width: 300px !important;
-                        margin: 0 !important;
-                    }
-                    .scob1 {
-                        top: 0px !important;
-                        left: 0px !important;
-                    }
-                    .scob2 {
-                        top: 255px !important;
-                        left: 220px !important;
-                    }
-                }
-                .strecki {
-                    p {
-                        margin: 0;
-                    }
-                    .krug {
-                        margin: 20px 10px 0 0  !important;
-                    }
-                    .strel1 {
-                        top: 90px !important;
-                        left: 118px !important;
-                    }
-                    .strel2 {
-                        left: 165px !important;
-                    }
+            .hoto {
+                img {
+                    width: 300px !important;
                 }
             }
         }
     }
     footer {
         .top {
-            text-align: center;
-        }
-        .dowm {
-        flex-wrap: wrap;
-        .down_left {
-            width: 215px;
-        }
-        }
-    }
-}
-@media screen and (max-width: 375px) {
-        .top_container {
-            .top {
-                .menu {
-                    display: none;
-                }
+            h2 {
+                text-align: center;
             }
-        .popular_product {
-            .box1 {
+        }
+        .down {
+            .down_left {
+                margin-bottom: 30px;
                 h1 {
-                    font-size: 40px;
-                }
-            }
-            .box2 {
-                .items {
-                    .down_but {
-                        .buts {
-                            width: 10%;
-                        }
-                    }
-                }
-            }
-        }
-        footer {
-            .down {
-                flex-wrap: wrap;
-                .down_left{
-                    margin-bottom: 20px;
+                    text-align: center;
                 }
             }
         }

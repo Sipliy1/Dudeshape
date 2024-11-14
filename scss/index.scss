@@ -6,22 +6,17 @@
 body {
     font-family: "Red Hat Display", sans-serif;;
     font-size: 16px;
-    .d-flex {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .flex {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-    }
     header {
-        width: 100%;
         .top_container {
             background-color: #F9F6F5;
+            position: relative;
             .top {
-                padding: 40px 100px 0;
+                align-items: center;
+                max-width: 1240px;
+                display: flex;
+                justify-content: space-around;
+                margin: 0 auto;
+                padding-top: 40px;
                 h1 {
                     text-decoration: underline;
                     font-style: italic;
@@ -30,7 +25,13 @@ body {
                     line-height: 30px;
                     color: #222222;
                 }
-                .menu a {
+                .menu {
+                width: 50%;
+                display: flex;
+                justify-content: space-around;
+                text-align: center;
+                align-items: center;
+                a {
                     text-decoration: none;
                     font-size: 16px;
                     font-weight: 400;
@@ -41,24 +42,28 @@ body {
                         color: #F9F6F5;
                         background-color: #222222;
                         border-radius: 10px;
+                        padding: 5px 20px;
+                        }
                     }
                 }
-                .profile img {
-                    margin: 0 13px;
+                .profile {
+                    img {
+                        margin: 0 13px;
+                    }
                 }
             }
             .main_logo {
                 margin-top: 70px;
-                display: flex;
-                justify-content: space-between;
+                height: 604px;
                 .block1 {
+                    z-index: 3;
+                    position: relative;
+                    max-width: 621px;
                     margin-top: 30px;
                     margin-left: 100px;
                     h1 {
-                        margin-top: 20px;
                         font-weight: 500;
                         font-size: 56px;
-                        max-width: 621px;
                     }
                     p {
                         margin-top: 15px;
@@ -66,7 +71,6 @@ body {
                         font-size: 20px;
                         line-height: 32px;
                         color: #555555;
-                        max-width: 516px;
                     }
                     form {
                         .search {
@@ -109,17 +113,21 @@ body {
                     }
                 }
                 .block2 {
-                    position: relative;
+                    max-width: 796px;
                     .main_logo_photo{
-                        max-width: 796px;
+                        position: absolute;
+                        top: 135px;
+                        right:0px;
+                        width: 796px;
+                        z-index: 1;
                     }
                     .str {
                         position: absolute;
-                        z-index: 1;
+                        z-index: 2;
                         width: 145px;
                         height: 138px;
-                        top: 477px;
-                        left: 0px;
+                        bottom: 0px;
+                        right: 670px;
                     }
                 }
             }
@@ -130,30 +138,42 @@ body {
             display: flex;
             justify-content: center;
             align-items: center;
+            margin: 100px auto;
+            max-width: 90%;
+            height: 113px;
+            border-top: 1px solid #EEEEEE ;
+            border-bottom: 1px solid #EEEEEE;
             .name {
-                width: 80%;
-                padding: 50px 0;
-                margin: 100px 0;
-                border-top: 1px solid #EEEEEE ;
-                border-bottom: 1px solid #EEEEEE;
+                display: flex;
+                width: 90%;
+                height: 28px;
+                justify-content: space-between;
                 img {
                     object-fit: cover;
                 }
             }
         }
         .popular_product {
-            margin: 0 100px;
+            max-width: 1240px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
             .box1 {
+                display: flex;
+                flex-direction: column;
+                max-height: 270px;
                 h1 {
                     max-width: 513px;
-                    font-size: 56px;
+                    font-size: 40px;
                     font-weight: 500;
                     line-height: 70px;
                     color: #000;
                 } 
                 .text {
+                    display: flex;
+                    justify-content: space-between;
                     margin-top: 15px;
-                    margin-bottom: 40px;
                 }
                 p {
                     max-width: 714px;
@@ -175,13 +195,13 @@ body {
                 .items {
                     display: flex;
                     justify-content: space-around;
-                    width: 100%;
+                    margin-top: 30px;
                         img {
-                            width: 600px;
+                            width: 100%;
                         }
                         .item1,
                         .item2 {
-                            width: 600px;
+                            width: 45%;
                             border: 1px solid #EEEEEE;
                         }
                     .box_lorem {
@@ -206,14 +226,13 @@ body {
                         justify-content: space-around;
                         margin-bottom: 20px;
                             .buts {
-                            max-width: 550px;
                             display: flex;
                                 .but1 {
                                 font-size: 18px;
                                 font-weight: 500;
                                 line-height: 24px;
                                 border: 1px solid #685A5275;
-                                max-width: 137px;
+                                width: 137px;
                                 height: 56px;
                                 margin-left: 32px;
                                 background: #402F2C;
@@ -226,7 +245,7 @@ body {
                                 font-weight: 500;
                                 line-height: 24px;
                                 border: 1px solid #685A5275;
-                                max-width: 162px;
+                                width: 162px;
                                 background: #fff;
                                 color: #402F2C;
                                 margin-left: 32px;
@@ -240,7 +259,6 @@ body {
                             font-weight: 500;
                             line-height: 32px;
                             color: #222222;
-                            margin-right: 10px;
                         }
                     }
                 }
@@ -248,9 +266,13 @@ body {
         }
         .numbers {
             .num {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                text-align: center;
                 background: #FDF8F5;
                 margin-top: 100px;
-                height: 250px;
+                height: 300px;
                 h1 {
                     font-size: 56px;
                     font-weight: 700;
@@ -258,7 +280,6 @@ body {
                     color:#222222;
                     border-bottom: 3px solid #222222;
                     margin-bottom: 30px;
-                    text-align: center;
                 }
                 p {
                     font-size: 24px;
@@ -269,21 +290,26 @@ body {
             }
         }
         .advertising {
+            max-width: 1240px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
             .photo {
+                display: flex;
                 justify-content: center;
-                margin-top: 150px;
                 align-items: center;
+                margin-top: 150px;
                 .left {
+                    max-width: 608px;
                     padding-right: 32px;
                     h1 {
-                        max-width: 520px;
                         font-size: 56px;
                         font-weight: 500;
                         line-height: 70px;
                         margin: 40px 0 30px 0;
                     }
                     p {
-                        max-width: 608px;
                         font-size: 20px;
                         font-weight: 400;
                         line-height: 32px;
@@ -312,48 +338,45 @@ body {
             }
         }
         .designers {
+            max-width: 1240px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
             .women {
+                display: flex;
                 justify-content: center;
-                margin-top: 150px;
                 align-items: center;
+                margin-top: 150px;
                 .text_hoto {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    max-width: 625px;
+                    height: 554px;
+                    padding-left: 52px;
                     h4 {
-                        margin: 30px 0 10px 54px;
+                        margin: 30px 0 12px 0;
                         font-size: 30px;
                         font-weight: 500;
                         line-height: 40px;
                         color: #222222;
                     }
                     .img1 {
-                        margin-bottom: 30px;
-                        margin-left: 54px;
+                        width: 168px;
+                        height: 24px;
+                        margin-bottom: 43px;
                     }
                     p {
                         font-size: 20px;
                         font-weight: 400;
                         line-height: 32px;
                         color: #555555;
-                        margin-left: 54px;
                     }
                     .text {
                         position: relative;
                         .p1 {
-                            margin-bottom: 30px;
-                            width: 625px;
-                        }
-                        .scob1 {
-                            position: absolute;
-                            width: 16.8px;
-                            height: 14.4px;
-                            top: 0px;
-                            left: 32px;
-                        }
-                        .scob2 {
-                            position: absolute;
-                            width: 16.8px;
-                            height: 14.4px;
-                            top: 98px;
-                            left: 476px;
+                            max-width: 625px;
                         }
                     }
                     .strecki {
@@ -363,21 +386,20 @@ body {
                         }
                         .krug {
                             margin-right: 15px;
-                            margin-left: 54px;
                         }
                         .strel1 {
                             position: absolute;
                             width: 16px;
                             height: 16px;
-                            top: 89px;
-                            left: 63px;
+                            bottom: 13px;
+                            left: 8px;
                         } 
                         .strel2 {
                             position: absolute;
                             width: 16px;
                             height: 16px;
-                            top: 89px;
-                            left: 113px;
+                            bottom: 13px;
+                            left: 60px;
                         } 
                     }
                 }
@@ -390,7 +412,9 @@ body {
         border: 1px solid #DDDDDD;
         background: #FAFAFA;
         .top {
-            max-width: 90%;
+            display: flex;
+            justify-content: space-around;
+            max-width: 1240px;
             margin: 80px auto 56px auto;
             h2 {
                 font-size: 36px;
@@ -405,7 +429,6 @@ body {
             form {
                 div {
                     background-color: #fff;
-                    width: 386px;
                     height: 56px;
                     input[type='text']{
                         border: none;
@@ -443,8 +466,11 @@ body {
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
+            align-items: center;
+            margin: 0 auto;
+            max-width: 1172px;
             .down_left {
-                width: 326px;
+                max-width: 326px;
                 h1 {
                     font-size: 40px;
                     line-height: 50px;

@@ -1,0 +1,546 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+body .d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header {
+  width: 100%;
+}
+body header .top_container {
+  background-color: #F9F6F5;
+}
+body header .top_container .top {
+  padding: 40px 100px 0;
+}
+body header .top_container .top h1 {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #222222;
+}
+body header .top_container .top .menu a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #222222;
+  padding: 5px 20px;
+}
+body header .top_container .top .menu a:hover {
+  color: #F9F6F5;
+  background-color: #222222;
+  border-radius: 10px;
+}
+body header .top_container .top .profile img {
+  margin: 0 13px;
+}
+body header .top_container .main_logo {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body header .top_container .main_logo .block1 {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+body header .top_container .main_logo .block1 h1 {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 56px;
+  max-width: 621px;
+}
+body header .top_container .main_logo .block1 p {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #555555;
+  max-width: 516px;
+}
+body header .top_container .main_logo .block1 form .search {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header .top_container .main_logo .block1 form div {
+  background-color: #fff;
+  max-width: 326px;
+  height: 48px;
+  margin-bottom: 50px;
+}
+body header .top_container .main_logo .block1 form div input[type=text] {
+  padding-left: 10px;
+  border: none;
+  width: 288px;
+  height: 48px;
+  margin-left: 10px;
+}
+body header .top_container .main_logo .block1 form div input[type=submit] {
+  background: url(./../img/Group\ 7.png) no-repeat;
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+body header .top_container .main_logo .block1 form button {
+  border: none;
+  background: #402F2C;
+  color: #fff;
+  width: 148px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 500px;
+  cursor: pointer;
+}
+body header .top_container .main_logo .block2 {
+  position: relative;
+}
+body header .top_container .main_logo .block2 .main_logo_photo {
+  max-width: 796px;
+}
+body header .top_container .main_logo .block2 .str {
+  position: absolute;
+  z-index: 1;
+  width: 145px;
+  height: 138px;
+  top: 477px;
+  left: 0px;
+}
+body main .companis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body main .companis .name {
+  width: 80%;
+  padding: 50px 0;
+  margin: 100px 0;
+  border-top: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+}
+body main .companis .name img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main .popular_product {
+  margin: 0 100px;
+}
+body main .popular_product .box1 h1 {
+  max-width: 513px;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 70px;
+  color: #000;
+}
+body main .popular_product .box1 .text {
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+body main .popular_product .box1 p {
+  max-width: 714px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #555555;
+}
+body main .popular_product .box1 a {
+  max-width: 280px;
+  color: #222222;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+body main .popular_product .box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body main .popular_product .box2 .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+body main .popular_product .box2 .items img {
+  width: 600px;
+}
+body main .popular_product .box2 .items .item1,
+body main .popular_product .box2 .items .item2 {
+  width: 600px;
+  border: 1px solid #EEEEEE;
+}
+body main .popular_product .box2 .items .box_lorem h3 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 32px;
+  margin-top: 10px;
+}
+body main .popular_product .box2 .items .box_lorem p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 10px 0px 40px 32px;
+  color: #555555;
+  max-width: 516px;
+}
+body main .popular_product .box2 .items .down_but {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 20px;
+}
+body main .popular_product .box2 .items .down_but .buts {
+  max-width: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body main .popular_product .box2 .items .down_but .buts .but1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  border: 1px solid rgba(104, 90, 82, 0.4588235294);
+  max-width: 137px;
+  height: 56px;
+  margin-left: 32px;
+  background: #402F2C;
+  color: #fff;
+  cursor: pointer;
+}
+body main .popular_product .box2 .items .down_but .buts .but2 {
+  height: 56px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  border: 1px solid rgba(104, 90, 82, 0.4588235294);
+  max-width: 162px;
+  background: #fff;
+  color: #402F2C;
+  margin-left: 32px;
+  cursor: pointer;
+}
+body main .popular_product .box2 .items .down_but p {
+  text-align: right;
+  max-width: 140px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #222222;
+  margin-right: 10px;
+}
+body main .numbers .num {
+  background: #FDF8F5;
+  margin-top: 100px;
+  height: 250px;
+}
+body main .numbers .num h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #222222;
+  border-bottom: 3px solid #222222;
+  margin-bottom: 30px;
+  text-align: center;
+}
+body main .numbers .num p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #555555;
+}
+body main .advertising .photo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body main .advertising .photo .left {
+  padding-right: 32px;
+}
+body main .advertising .photo .left h1 {
+  max-width: 520px;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 70px;
+  margin: 40px 0 30px 0;
+}
+body main .advertising .photo .left p {
+  max-width: 608px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #555555;
+}
+body main .advertising .photo .left #bot {
+  margin: 20px 0 50px 0;
+}
+body main .advertising .photo .left button {
+  border: none;
+  background: #402F2C;
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 148px;
+  height: 56px;
+  cursor: pointer;
+}
+body main .advertising .photo .right img {
+  max-width: 600px;
+}
+body main .designers .women {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 150px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body main .designers .women .text_hoto h4 {
+  margin: 30px 0 10px 54px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #222222;
+}
+body main .designers .women .text_hoto .img1 {
+  margin-bottom: 30px;
+  margin-left: 54px;
+}
+body main .designers .women .text_hoto p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #555555;
+  margin-left: 54px;
+}
+body main .designers .women .text_hoto .text {
+  position: relative;
+}
+body main .designers .women .text_hoto .text .p1 {
+  margin-bottom: 30px;
+  width: 625px;
+}
+body main .designers .women .text_hoto .text .scob1 {
+  position: absolute;
+  width: 16.8px;
+  height: 14.4px;
+  top: 0px;
+  left: 32px;
+}
+body main .designers .women .text_hoto .text .scob2 {
+  position: absolute;
+  width: 16.8px;
+  height: 14.4px;
+  top: 98px;
+  left: 476px;
+}
+body main .designers .women .text_hoto .strecki {
+  position: relative;
+}
+body main .designers .women .text_hoto .strecki img {
+  margin-top: 20px;
+}
+body main .designers .women .text_hoto .strecki .krug {
+  margin-right: 15px;
+  margin-left: 54px;
+}
+body main .designers .women .text_hoto .strecki .strel1 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 89px;
+  left: 63px;
+}
+body main .designers .women .text_hoto .strecki .strel2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 89px;
+  left: 113px;
+}
+body footer {
+  margin-top: 150px;
+  padding-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  background: #FAFAFA;
+}
+body footer .top {
+  max-width: 90%;
+  margin: 80px auto 56px auto;
+}
+body footer .top h2 {
+  font-size: 36px;
+  font-weight: 500;
+  list-style: 48px;
+  color: #222222;
+}
+body footer .top .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body footer .top form div {
+  background-color: #fff;
+  width: 386px;
+  height: 56px;
+}
+body footer .top form div input[type=text] {
+  border: none;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #555;
+  padding-left: 15px;
+}
+body footer .top form div input[type=submit] {
+  width: 113px;
+  height: 40px;
+  border: none;
+  background: #402F2C;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+}
+body footer .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body footer .line hr {
+  width: 90%;
+  margin-bottom: 50px;
+}
+body footer .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+body footer .down .down_left {
+  width: 326px;
+}
+body footer .down .down_left h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  text-decoration: underline;
+  font-style: italic;
+  color: #222222;
+  margin-bottom: 30px;
+}
+body footer .down .down_left p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #555555;
+}
+body footer .down .donw_center p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #222222;
+  margin-bottom: 15px;
+}
+body footer .down .donw_center a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #222222;
+  padding: 10px 5px;
+}
+body footer .down .donw_center a:hover {
+  color: #F9F6F5;
+  background-color: #222222;
+  border-radius: 10px;
+  text-align: center;
+}
+body footer .down .down_right h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #222222;
+  margin-bottom: 40px;
+}
+body footer .down .down_right p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #222222;
+  padding-bottom: 20px;
+}
+body footer .down .down_right img {
+  padding-right: 20px;
+}

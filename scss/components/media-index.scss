@@ -1,0 +1,359 @@
+@media only screen and (max-width: 1409px) {
+    .box2 {
+        .items {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .item1 {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .top_container {
+        .main_logo {
+            padding-bottom: 70px;
+            .main_logo_photo{
+                width: 600px;
+                margin-top: 50px;
+            }
+        }
+    }
+    .box1 {
+        .text {
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+    }
+    .box2 {
+        .item1 {
+            margin: 0px 0px 20px 0px;
+        }
+    }
+    .advertising {
+        .photo {
+            flex-direction: column;
+            text-align: center;
+            .left {
+                padding: 0 !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .designers {
+        .women {
+            flex-direction: column;
+            align-items: center;
+            .text_hoto {
+                h4 {
+                    margin: 20px 0px 10px 0px;
+                }
+                .img1 {
+                    margin: 0px 0px 30px 0px;
+                }
+                p {
+                    margin: 0;
+                }
+                .scob1 {
+                    top: 3px;
+                    left: 55px;
+                }
+                .scob2 {
+                    top: 98px;
+                    left: 579px;
+                }
+                .krug {
+                    margin-left: 0px
+                }
+                .strel1 {
+                    top: 90px ;
+                    left: 333px;
+                }
+                .strel2 {
+                    top: 90px;
+                    left: 385px;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    .top_container {
+        .top {
+            padding: 40px 50px 0;
+            flex-wrap: wrap;
+            justify-content: center;
+            a {
+                margin: 20px 5px;
+            }
+        }
+        .main_logo {
+            margin-top: 0px !important; 
+            flex-direction: column;
+            align-items: center;
+            .block1 {
+                margin-left: 0px !important;
+            }
+            .block2 {
+                .str {
+                    top: 0px !important;
+                    left: 230px !important;
+                }
+            }
+        }
+    }
+    .companis {
+        img {
+            width: 14% ; 
+        }
+    }
+    .advertising {
+        .photo {
+            .left {
+                padding-right: 0px !important;
+            }
+        }
+    }
+    .women {
+        .text_hoto {
+            .text {
+                .scob1 {
+                    top: 0px;
+                    left: 88px;
+                }
+                .scob2 {
+                    top: 130px ;
+                    left: 190px ;
+                }
+            }
+            .strecki {
+                .strel1 {
+                    top: 90px;
+                    left: 310px;
+                }
+                .strel2 {
+                    top: 90px;
+                    left: 360px;
+                }
+            }
+        }
+    }
+    footer {
+        .top {
+            flex-direction: column;
+            align-items: center;
+            h2 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 567px) {
+    .top_container {
+        .top {
+            padding: 40px 50px 0 !important;
+        }
+        .main_logo {
+            padding-bottom: 0 !important;
+            .block1 {
+                flex-wrap: wrap;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                justify-content: center;
+                form { 
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+            .block2 {
+                .main_logo_photo {
+                    width: 100%;
+                }
+                .str {
+                    top: 29px;
+                    left: 170px;
+                }
+            }
+        }
+    }
+    .companis {
+        .name img {
+            width: 15%;
+        }
+    }
+    .popular_product {
+        .box1 {
+            text-align: center;
+            .text {
+                justify-content: center;
+            }
+        }
+        .box2 {
+            .items {
+                .item1, .item2 {
+                    max-width: 100%;
+                }
+                img {
+                    max-width: 100%;
+                }
+                .box_lorem {
+                    text-align: center;
+                    margin-top: 10px;
+                    margin-left: 10px;
+                    h3 {
+                        margin: 0 !important;
+                    }
+                    p {
+                        margin: 10px 0px 20px 0px !important; 
+                    }
+                }
+                .down_but {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    .buts {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        .but1{
+                            margin-left: 0px;
+                            margin-bottom: 10px;
+                        }
+                        .but2 {
+                            margin-left: 0px;
+                        }
+                    }
+                    p {
+                        margin-top: 20px;
+                        margin-right: 0px !important;
+                    }
+                }
+            }
+        }
+    }
+    .numbers {
+        .num {
+            .num1, .num2, .num3 {
+                width: 90px !important;
+                text-align: center;
+            }
+            h1 {
+                font-size: 29px !important;
+            } 
+            p {
+                text-align: center;
+                font-size: 16px !important;
+            }
+        }
+    }
+    .advertising {
+        .photo {
+            margin-top: 50px;
+            .left h1 {
+                width: 340px;
+            }
+            .right img{
+                width:  300px;
+            }
+        }
+    }
+    .designers {
+        .women {
+            .hoto img {
+                width: 300px;
+            }
+            .text_hoto {
+                text-align: center;
+                h4 {
+                    margin: 10px 0 10px 0px !important;
+                }
+                .img1 {
+                    margin: 0 0 20px 0px !important;
+                }
+                .text {
+                    .p1 {
+                        width: 300px !important;
+                        margin: 0 !important;
+                    }
+                    .scob1 {
+                        top: 0px !important;
+                        left: 0px !important;
+                    }
+                    .scob2 {
+                        top: 255px !important;
+                        left: 220px !important;
+                    }
+                }
+                .strecki {
+                    p {
+                        margin: 0;
+                    }
+                    .krug {
+                        margin: 20px 10px 0 0  !important;
+                    }
+                    .strel1 {
+                        top: 90px !important;
+                        left: 118px !important;
+                    }
+                    .strel2 {
+                        left: 165px !important;
+                    }
+                }
+            }
+        }
+    }
+    footer {
+        .top {
+            text-align: center;
+        }
+        .dowm {
+        flex-wrap: wrap;
+        .down_left {
+            width: 215px;
+        }
+        }
+    }
+}
+@media screen and (max-width: 375px) {
+        .top_container {
+            .top {
+                .menu {
+                    display: none;
+                }
+            }
+        .popular_product {
+            .box1 {
+                h1 {
+                    font-size: 40px;
+                }
+            }
+            .box2 {
+                .items {
+                    .down_but {
+                        .buts {
+                            width: 10%;
+                        }
+                    }
+                }
+            }
+        }
+        footer {
+            .down {
+                flex-wrap: wrap;
+                .down_left{
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}

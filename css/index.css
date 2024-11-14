@@ -1,0 +1,624 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+body header .top_container {
+  background-color: #F9F6F5;
+  position: relative;
+}
+body header .top_container .top {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+body header .top_container .top h1 {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #222222;
+}
+body header .top_container .top .menu {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header .top_container .top .menu a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #222222;
+  padding: 5px 20px;
+}
+body header .top_container .top .menu a:hover {
+  color: #F9F6F5;
+  background-color: #222222;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+body header .top_container .top .profile img {
+  margin: 0 13px;
+}
+body header .top_container .main_logo {
+  margin-top: 70px;
+  height: 604px;
+}
+body header .top_container .main_logo .block1 {
+  z-index: 3;
+  position: relative;
+  max-width: 621px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+body header .top_container .main_logo .block1 h1 {
+  font-weight: 500;
+  font-size: 56px;
+}
+body header .top_container .main_logo .block1 p {
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #555555;
+}
+body header .top_container .main_logo .block1 form .search {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body header .top_container .main_logo .block1 form div {
+  background-color: #fff;
+  max-width: 326px;
+  height: 48px;
+  margin-bottom: 50px;
+}
+body header .top_container .main_logo .block1 form div input[type=text] {
+  padding-left: 10px;
+  border: none;
+  width: 288px;
+  height: 48px;
+  margin-left: 10px;
+}
+body header .top_container .main_logo .block1 form div input[type=submit] {
+  background: url(./../img/Group\ 7.png) no-repeat;
+  background-size: cover;
+  width: 32px;
+  height: 32px;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+}
+body header .top_container .main_logo .block1 form button {
+  border: none;
+  background: #402F2C;
+  color: #fff;
+  width: 148px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 500px;
+  cursor: pointer;
+}
+body header .top_container .main_logo .block2 {
+  max-width: 796px;
+}
+body header .top_container .main_logo .block2 .main_logo_photo {
+  position: absolute;
+  top: 135px;
+  right: 0px;
+  width: 796px;
+  z-index: 1;
+}
+body header .top_container .main_logo .block2 .str {
+  position: absolute;
+  z-index: 2;
+  width: 145px;
+  height: 138px;
+  bottom: 0px;
+  right: 670px;
+}
+body main .companis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 100px auto;
+  max-width: 90%;
+  height: 113px;
+  border-top: 1px solid #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+}
+body main .companis .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 28px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+body main .companis .name img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main .popular_product {
+  max-width: 1240px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+body main .popular_product .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-height: 270px;
+}
+body main .popular_product .box1 h1 {
+  max-width: 513px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 70px;
+  color: #000;
+}
+body main .popular_product .box1 .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 15px;
+}
+body main .popular_product .box1 p {
+  max-width: 714px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #555555;
+}
+body main .popular_product .box1 a {
+  max-width: 280px;
+  color: #222222;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+}
+body main .popular_product .box2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body main .popular_product .box2 .items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 30px;
+}
+body main .popular_product .box2 .items img {
+  width: 100%;
+}
+body main .popular_product .box2 .items .item1,
+body main .popular_product .box2 .items .item2 {
+  width: 45%;
+  border: 1px solid #EEEEEE;
+}
+body main .popular_product .box2 .items .box_lorem h3 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-left: 32px;
+  margin-top: 10px;
+}
+body main .popular_product .box2 .items .box_lorem p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 10px 0px 40px 32px;
+  color: #555555;
+  max-width: 516px;
+}
+body main .popular_product .box2 .items .down_but {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 20px;
+}
+body main .popular_product .box2 .items .down_but .buts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body main .popular_product .box2 .items .down_but .buts .but1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  border: 1px solid rgba(104, 90, 82, 0.4588235294);
+  width: 137px;
+  height: 56px;
+  margin-left: 32px;
+  background: #402F2C;
+  color: #fff;
+  cursor: pointer;
+}
+body main .popular_product .box2 .items .down_but .buts .but2 {
+  height: 56px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  border: 1px solid rgba(104, 90, 82, 0.4588235294);
+  width: 162px;
+  background: #fff;
+  color: #402F2C;
+  margin-left: 32px;
+  cursor: pointer;
+}
+body main .popular_product .box2 .items .down_but p {
+  text-align: right;
+  max-width: 140px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #222222;
+}
+body main .numbers .num {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  background: #FDF8F5;
+  margin-top: 100px;
+  height: 300px;
+}
+body main .numbers .num h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 70px;
+  color: #222222;
+  border-bottom: 3px solid #222222;
+  margin-bottom: 30px;
+}
+body main .numbers .num p {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #555555;
+}
+body main .advertising {
+  max-width: 1240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+body main .advertising .photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 150px;
+}
+body main .advertising .photo .left {
+  max-width: 608px;
+  padding-right: 32px;
+}
+body main .advertising .photo .left h1 {
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 70px;
+  margin: 40px 0 30px 0;
+}
+body main .advertising .photo .left p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #555555;
+}
+body main .advertising .photo .left #bot {
+  margin: 20px 0 50px 0;
+}
+body main .advertising .photo .left button {
+  border: none;
+  background: #402F2C;
+  color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 148px;
+  height: 56px;
+  cursor: pointer;
+}
+body main .advertising .photo .right img {
+  max-width: 600px;
+}
+body main .designers {
+  max-width: 1240px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+body main .designers .women {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 150px;
+}
+body main .designers .women .text_hoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 625px;
+  height: 554px;
+  padding-left: 52px;
+}
+body main .designers .women .text_hoto h4 {
+  margin: 30px 0 12px 0;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #222222;
+}
+body main .designers .women .text_hoto .img1 {
+  width: 168px;
+  height: 24px;
+  margin-bottom: 43px;
+}
+body main .designers .women .text_hoto p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #555555;
+}
+body main .designers .women .text_hoto .text {
+  position: relative;
+}
+body main .designers .women .text_hoto .text .p1 {
+  max-width: 625px;
+}
+body main .designers .women .text_hoto .strecki {
+  position: relative;
+}
+body main .designers .women .text_hoto .strecki img {
+  margin-top: 20px;
+}
+body main .designers .women .text_hoto .strecki .krug {
+  margin-right: 15px;
+}
+body main .designers .women .text_hoto .strecki .strel1 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  bottom: 13px;
+  left: 8px;
+}
+body main .designers .women .text_hoto .strecki .strel2 {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  bottom: 13px;
+  left: 60px;
+}
+body footer {
+  margin-top: 150px;
+  padding-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  background: #FAFAFA;
+}
+body footer .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  max-width: 1240px;
+  margin: 80px auto 56px auto;
+}
+body footer .top h2 {
+  font-size: 36px;
+  font-weight: 500;
+  list-style: 48px;
+  color: #222222;
+}
+body footer .top .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body footer .top form div {
+  background-color: #fff;
+  height: 56px;
+}
+body footer .top form div input[type=text] {
+  border: none;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #555;
+  padding-left: 15px;
+}
+body footer .top form div input[type=submit] {
+  width: 113px;
+  height: 40px;
+  border: none;
+  background: #402F2C;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+}
+body footer .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body footer .line hr {
+  width: 90%;
+  margin-bottom: 50px;
+}
+body footer .down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  max-width: 1172px;
+}
+body footer .down .down_left {
+  max-width: 326px;
+}
+body footer .down .down_left h1 {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  text-decoration: underline;
+  font-style: italic;
+  color: #222222;
+  margin-bottom: 30px;
+}
+body footer .down .down_left p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  color: #555555;
+}
+body footer .down .donw_center p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #222222;
+  margin-bottom: 15px;
+}
+body footer .down .donw_center a {
+  display: block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #222222;
+  padding: 10px 5px;
+}
+body footer .down .donw_center a:hover {
+  color: #F9F6F5;
+  background-color: #222222;
+  border-radius: 10px;
+  text-align: center;
+}
+body footer .down .down_right h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #222222;
+  margin-bottom: 40px;
+}
+body footer .down .down_right p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #222222;
+  padding-bottom: 20px;
+}
+body footer .down .down_right img {
+  padding-right: 20px;
+}

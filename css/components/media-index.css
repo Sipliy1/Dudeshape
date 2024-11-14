@@ -172,6 +172,9 @@
   .popular_product .box2 .items .item1, .popular_product .box2 .items .item2 {
     width: 85% !important;
   }
+  .popular_product .box2 .items .item1 {
+    margin-bottom: 10px;
+  }
   .popular_product .box2 .items .down_but {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
